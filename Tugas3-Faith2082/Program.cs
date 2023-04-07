@@ -1,35 +1,35 @@
 ﻿namespace tugas3.faith2082
 {
 
-    class Processor
+    class Processor //Parent Class//
     {
         public string merk, tipe;
     }
 
 
-    class Intel : Processor
+    class Intel : Processor //Child Class Processor//
     {
         public Intel()
         {
             base.merk = "Intel";
         }
     }
-    class CoreI3 : Intel
+    class CoreI3 : Intel //Child Class Intel//
     {
         public CoreI3()
         {
             base.tipe = "Core i3";
         }
     }
-    class CoreI5 : Intel
+    class CoreI5 : Intel //Child Class Intel//
     {
         public CoreI5()
         {
             base.tipe = "Core i5";
         }
     }
-    class CoreI7 : Intel
-    {
+    class CoreI7 : Intel //Child Class Intel//
+    { 
         public CoreI7()
         {
             base.tipe = "Core i7";
@@ -37,21 +37,21 @@
     }
 
 
-    class Amd : Processor
+    class Amd : Processor //Child Class Processor//
     {
         public Amd()
         {
             base.merk = "AMD";
         }
     }
-    class Ryzen : Amd   
+    class Ryzen : Amd   //Child Class Amd//
     {
         public Ryzen()
         {
             base.tipe = "RAYZEN";
         }
     }
-    class Athlon : Amd
+    class Athlon : Amd //Child Class Amd//
     {
         public Athlon()
         {
@@ -60,18 +60,18 @@
     }
 
 
-    class Vga
+    class Vga //Parent Class//
     {
         public string merk;
     }
-    class Nvidia : Vga
+    class Nvidia : Vga //Child Class Vga//
     {
         public Nvidia()
         {
             base.merk = "Nvidia";
         }
     }
-    class AMD : Vga
+    class AMD : Vga //Child Class Vga//
     {
         public AMD()
         {
@@ -79,19 +79,19 @@
         }
     }
 
-
-    class Laptop
+    
+    class Laptop //Parent Class//
     {
         public string merk, tipe;
         public Vga vga;
         public Processor processor;
 
-        public void LaptopDinyalakan()
+        public void LaptopDinyalakan() //Method//
         {
             Console.WriteLine($"Laptop {merk} {tipe} dinyalakan");
         }
 
-        public void LaptopDimatikan()
+        public void LaptopDimatikan() //Method//
         {
             Console.WriteLine($"Laptop {merk} {tipe} dimatikan");
         }
@@ -100,31 +100,7 @@
 
     }
 
-    class Vivobook : ASUS
-    {
-        public Vivobook()
-        {
-            base.tipe = "Vivobook";
-        }
-        public void Ngoding()
-        {
-            Console.WriteLine("Ctak Ctak Ctak, error lagi!!");
-        }
-    }
-
-    class Predator : ACER
-    {
-        public Predator()
-        {
-            base.tipe = "Predator";
-        }
-        public void BermainGame()
-        {
-            Console.WriteLine($"Laptop {merk} {tipe} sedang memainkan game");
-        }
-    }
-
-    class ASUS : Laptop
+    class ASUS : Laptop //Child Class Laptop//
     {
         public ASUS()
         {
@@ -132,7 +108,19 @@
         }
     }
 
-    class ROG : ASUS
+    class Vivobook : ASUS //Child Class Asus//
+    {
+        public Vivobook()
+        {
+            base.tipe = "Vivobook";
+        }
+        public void Ngoding() //Method//
+        {
+            Console.WriteLine("Ctak Ctak Ctak, error lagi!!");
+        }
+    }
+
+    class ROG : ASUS //Child Class Asus//
     {
         public ROG()
         {
@@ -141,7 +129,7 @@
     }
 
 
-    class ACER : Laptop
+    class ACER : Laptop //Child Class Laptop//
     {
         public ACER()
         {
@@ -149,7 +137,18 @@
         }
     }
 
-    class Swift : ACER
+    class Predator : ACER //Child Class ACER//
+    {
+        public Predator()
+        {
+            base.tipe = "Predator";
+        }
+        public void BermainGame() //Method//
+        {
+            Console.WriteLine($"Laptop {merk} {tipe} sedang memainkan game");
+        }
+    }
+    class Swift : ACER //Child Class ACER//
     {
         public Swift()
         {
@@ -157,7 +156,7 @@
         }
     }
 
-    class Lenovo : Laptop
+    class Lenovo : Laptop //Child Class Laptop//
     {
         public Lenovo()
         {
@@ -165,7 +164,7 @@
         }
     }
 
-    class IdeaPad : Lenovo
+    class IdeaPad : Lenovo //Child Class Lenovo//
     {
         public IdeaPad()
         {
@@ -173,7 +172,7 @@
         }
     }
 
-    class Legion : Lenovo
+    class Legion : Lenovo //Child Class Lenovo//
     {
         public Legion()
         {
