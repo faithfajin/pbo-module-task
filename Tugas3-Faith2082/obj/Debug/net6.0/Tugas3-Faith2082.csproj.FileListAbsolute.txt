@@ -1,0 +1,15 @@
+C:\Users\cocco\source\repos\Tugas3-Faith2082\bin\Debug\net6.0\Tugas3-Faith2082.exe
+C:\Users\cocco\source\repos\Tugas3-Faith2082\bin\Debug\net6.0\Tugas3-Faith2082.deps.json
+C:\Users\cocco\source\repos\Tugas3-Faith2082\bin\Debug\net6.0\Tugas3-Faith2082.runtimeconfig.json
+C:\Users\cocco\source\repos\Tugas3-Faith2082\bin\Debug\net6.0\Tugas3-Faith2082.dll
+C:\Users\cocco\source\repos\Tugas3-Faith2082\bin\Debug\net6.0\Tugas3-Faith2082.pdb
+C:\Users\cocco\source\repos\Tugas3-Faith2082\obj\Debug\net6.0\Tugas3-Faith2082.csproj.AssemblyReference.cache
+C:\Users\cocco\source\repos\Tugas3-Faith2082\obj\Debug\net6.0\Tugas3-Faith2082.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cocco\source\repos\Tugas3-Faith2082\obj\Debug\net6.0\Tugas3-Faith2082.AssemblyInfoInputs.cache
+C:\Users\cocco\source\repos\Tugas3-Faith2082\obj\Debug\net6.0\Tugas3-Faith2082.AssemblyInfo.cs
+C:\Users\cocco\source\repos\Tugas3-Faith2082\obj\Debug\net6.0\Tugas3-Faith2082.csproj.CoreCompileInputs.cache
+C:\Users\cocco\source\repos\Tugas3-Faith2082\obj\Debug\net6.0\Tugas3-Faith2082.dll
+C:\Users\cocco\source\repos\Tugas3-Faith2082\obj\Debug\net6.0\refint\Tugas3-Faith2082.dll
+C:\Users\cocco\source\repos\Tugas3-Faith2082\obj\Debug\net6.0\Tugas3-Faith2082.pdb
+C:\Users\cocco\source\repos\Tugas3-Faith2082\obj\Debug\net6.0\Tugas3-Faith2082.genruntimeconfig.cache
+C:\Users\cocco\source\repos\Tugas3-Faith2082\obj\Debug\net6.0\ref\Tugas3-Faith2082.dll
